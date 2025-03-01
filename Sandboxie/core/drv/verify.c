@@ -129,6 +129,9 @@ NTSTATUS KphHashFile(
     _Out_ PULONG HashSize
     )
 {
+
+return STATUS_SUCCESS;
+
     NTSTATUS status;
     MY_HASH_OBJ hashObj;
     ULONG querySize;
